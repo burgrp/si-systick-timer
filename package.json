@@ -1,0 +1,12 @@
+{
+  "name": "@device.farm/si-systick-timer",
+  "version": "1.0.0",
+  "dependencies": {
+    "@device.farm/si-generic-timer": "1.0.1"
+  },
+  "silicon": {
+    "sources": [
+      "systick-timer.cpp"
+    ]
+  }
+}
